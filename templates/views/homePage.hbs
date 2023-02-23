@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+{{>navbar}}
+   <div class="container">
+    <form class="form">
+        <input type="text" id="cityName", placeholder="Enter city name", autocomplete="off">
+        <input type="submit"  class="sub_btn" value="search" id="submitBtn">
+    </form>
+   <div class="containerInfo">
+    <div class="date_day">
+        <p id="day">wed</p>
+        <p id="today_date">02 10 23</p>
+    </div>
+    <div class="output  ">
+        <p id="city_name">Enter the city Name</p>
+        <div class="temp_div opac">
+            <p id="temp" ><span></span><sup></sup>
+            </p>
+        </div>
+    </div>
+   </div>
+      </div>
+    
+</body>
+</html>
